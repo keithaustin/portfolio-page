@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import firebase_app from '../../firebase.config'
 
 const inter = Inter({ subsets: ['latin'] })
 
