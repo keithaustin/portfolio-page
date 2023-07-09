@@ -23,7 +23,7 @@ export default function Home() {
         <br />
         <p>
           I started learning to code when I was ten years old, after discovering Ruby.
-          I fell in love instantly, and I've never stopped learning. These days, my focus 
+          I fell in love instantly, and I&apos;ve never stopped learning. These days, my focus 
           is on JavaScript and Front-end development, but I also love game development, 
           systems-level work and I have even recently taken an interested in embedded 
           software. 
@@ -53,7 +53,7 @@ export default function Home() {
           <p>
             A programming language interpreter written in JavaScript. This project was
             intended to help me learn more about how programming languages work under the
-            hood. I've also created a webapp that runs the interpreter on the client side,
+            hood. I&apos;ve also created a webapp that runs the interpreter on the client side,
             so you can play around with the language, no download required!
           </p>
           <br />
@@ -83,7 +83,7 @@ export default function Home() {
       </section>
       <section className="more-projects text-center">
         <h2 className="text-xl font-semibold mb-2">Want to see my other projects?</h2>
-        <p>Visit my GitHub page to see all the cool stuff I've been working on!</p>
+        <p>Visit my GitHub page to see all the cool stuff I&apos;ve been working on!</p>
         <br />
         <a className="underline hover:no-underline"
           href="https://github.com/keithaustin">
