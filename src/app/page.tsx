@@ -1,15 +1,13 @@
-import Image from 'next/image';
 import ProjectCard from './components/ProjectCard';
-import profilePic from '../../public/me.jpg';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-8
       bg-gradient-to-br from-neutral-950 from-50% to-indigo-800">
-      <section className="about-me max-w-[80%] lg:max-w-[30%]">
+      <section className="about-me max-w-[80%] lg:max-w-[60%] xl:max-w-[40%] 2xl:max-w-[30%]">
         <h1 className="text-3xl text-center font-bold mb-8">Who is Keith Austin?</h1>
-        <Image
-          src={profilePic}
+        <img
+          src="./me.jpg"
           alt=""
           width={144}
           height={144}
@@ -31,7 +29,7 @@ export default function Home() {
         <h2 className="text-xl font-semibold text-center my-8">My Projects</h2>
       </section>
       <section className="projects-container grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3
-        max-w-[95%] lg:max-w-[80%] xl:max-w-[50%] mb-8">
+        max-w-[95%] lg:max-w-[85%] xl:max-w-[75%] 2xl:max-w-[60%] mb-8">
         <ProjectCard>
           <h2 className="font-bold">Bug Tracker</h2>
           <br />
